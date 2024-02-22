@@ -11,8 +11,10 @@ import img7 from '../../Assets/img (7).jpg'
 import img8 from '../../Assets/img (8).jpg'
 import img9 from '../../Assets/img (9).jpg'
 
-import Aos from "aos"
-import 'aos/dist/aos.css'
+import Aos from "aos"  // Importing AOS library for scroll animations
+import 'aos/dist/aos.css' // Importing AOS library CSS
+
+// Data for the destinations objects! Cards!
 
 const Data = [
   {
@@ -98,11 +100,13 @@ const Data = [
   },
 ]
 
+// Main component definition
+
 export const Main = () => {
 
-    // use react hooks to add a scroll animation
+    // useEffect hook to initialize AOS for scroll animations
     useEffect(()=>{
-      Aos.init({duration: 2000})
+      Aos.init({duration: 2000})  // Initialize AOS with a duration of 2000ms
     }, [])
   
 
@@ -115,7 +119,8 @@ export const Main = () => {
 
       <div className="secContent grid">
 
-        {
+          
+        {   // Mapping through the Data array to render destination cards
           Data.map(({id, imgSrc, destTitle, location, grade, fees, description })=>{
             return ( 
               <div key={id} data-aos="fade-up" className="singleDestination">
