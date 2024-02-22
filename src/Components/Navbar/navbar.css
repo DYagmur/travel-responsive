@@ -18,4 +18,51 @@
   align-items: center;
   justify-content: center;
   background: var(--whiteColorDaem);
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+.header .logo {
+  color: var(--blackColor);
+}
+@media screen and (max-width: 768px) {
+  .header .navBar {
+    position: absolute;
+    background: var(--whiteColorDaem);
+    height: -moz-max-content;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+  }
+  .header .navBar .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItem {
+    padding: 0.5rem 0;
+  }
+  .header .navBar .navLists .navItem .navLink {
+    color: var(--textColor);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .header .navBar .navLists .navItem .navLink:hover {
+    color: var(--PrimaryColor);
+  }
+  .header .navBar .navLists .btn {
+    margin-top: 1rem;
+  }
+  .header .navBar .navLists .btn a {
+    font-weight: 600;
+    color: var(--whiteColor);
+  }
 }/*# sourceMappingURL=navbar.css.map */
