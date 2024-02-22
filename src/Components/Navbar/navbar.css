@@ -85,6 +85,9 @@
   .header .navBar .closeNavbar:hover {
     color: var(--SecondaryColor);
   }
+  .header .activeNavbar {
+    top: 7rem;
+  }
 }
 .header .toggleNavbar .icon {
   font-size: 25px;
