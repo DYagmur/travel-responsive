@@ -14,8 +14,7 @@ const Footer = () => {
 
   // use react hooks to add a scroll animation
   useEffect(()=>{
-    Aos.init({duration: 2000})
-  }, [])
+    Aos.init({duration: 2000})}, [])
 
 
 
