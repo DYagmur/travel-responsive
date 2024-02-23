@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+### Assets used in the project
+
+https://html.design/download/travel-agency-html-template/   
+
+https://github.com/michalsnik/aos
+
+https://fonts.google.com/
+
+https://react-icons.github.io/react-icons/
+
+https://pixabay.com/videos/search/sea%20waves/
+
+https://www.pexels.com/
